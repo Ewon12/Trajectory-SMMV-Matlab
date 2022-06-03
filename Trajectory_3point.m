@@ -35,10 +35,10 @@ S4_place=jtraj(q3_rotation,q4_place,t) % step4
 
 S5_return2=jtraj(q4_place,q3_rotation,t) % step5
 
-q6_rotation2=[(pi/2)-45 0 0]
+q6_rotation2=[pi/4 0 0]
 S6_rotation2=jtraj(q3_rotation,q6_rotation2,t) % step6
 
-q7_pick2=[(pi/2)-45 -pi/4 2]
+q7_pick2=[pi/4 -pi/4 2]
 S7_pick2=jtraj(q6_rotation2,q7_pick2,t)  % step7
 
 
